@@ -4,7 +4,6 @@
 
 #include "lifo.h"
 
-int count = 0;
 lifo_t* lifo_create(int size)
 {
     lifo_t* temp = NULL;
