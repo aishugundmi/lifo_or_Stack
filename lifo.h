@@ -1,12 +1,9 @@
 #ifndef FIFO_H_INCLUDED
 #define FIFO_H_INCLUDED
 
-
-
 typedef struct lifo{
     int* buff;
     int stack_index;
-    size_t unread_count;
     unsigned int max_size;
 }lifo_t;
 
